@@ -16,9 +16,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Update project section with extracted details
-    document.getElementById("project").innerHTML = `
-        <h3>Efficient AI-Driven Hardware Acceleration on AMD Xilinx Versal ACAP</h3>
-        <p>Developed an optimization framework for task mapping between AI Engines and Programmable Logic (PL), reducing latency and improving computational efficiency in AI-driven applications. Focused on enhancing hardware acceleration strategies for deep learning models (CNNs, GNNs, ViTs).</p>
-    `;
+   
 });
